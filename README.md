@@ -12,7 +12,7 @@ This repository provides a LaTeX template for doctoral/master/bachelor theses, b
 
 ## Files to Edit
 - `classicthesis-config.tex`: General configuration settings.
-- `PhDThesis.tex`: The main thesis file.
+- `Thesis.tex`: The main thesis file.
 - `FrontBackmatter/*.tex`: Content for the front and back matter, including the abstract and acknowledgments.
 - `Chapters/*.tex`: Files for individual chapters.
 - `mybib.bib`: BibTeX file.

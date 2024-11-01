@@ -3,8 +3,6 @@
 \input{classicthesis-config}
 \usepackage{nopageno}
 \setlength{\parskip}{3mm}
-\usepackage{CJKutf8}
-\usepackage{xparse}
 \NewDocumentCommand{\chapter}{s m}{%
   \IfBooleanTF{#1}{
   }{
@@ -14,14 +12,14 @@
 
 
 \title{
-  \Large \begin{CJK}{UTF8}{ipxm}論文の内容の要旨\end{CJK}\\
+  \Large \jpn{論文の内容の要旨}\\
   \vspace*{10mm}
-  \myTitle\\
-  \Large \begin{CJK}{UTF8}{ipxm}(\myTitleJP)\end{CJK}
+  \Large \myTitle\\
+	\Large \jpn{（\myTitleJP）}
 }
 
 \author{
-  \Large \begin{CJK}{UTF8}{ipxm}氏名　\myNameJP \end{CJK}
+  \Large \jpn{氏名　\myNameJP}
 }
 \date{}
 

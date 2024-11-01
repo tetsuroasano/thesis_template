@@ -1,8 +1,8 @@
-MASTER  = PhDThesis
+MASTER  = Thesis
 ABST  = AbstractSep
-VERSION = v4.4
-NAME    = Tetsuro
-SURNAME = Asano
+VERSION = v1.0
+NAME    = Name
+SURNAME = Surname
 
 all: clean abstract
 	@pdflatex ${MASTER}.tex
@@ -11,7 +11,7 @@ all: clean abstract
 	@pdflatex -synctex=1 ${MASTER}.tex
 
 abstract: clean
-	@pdflatex ${ABST}.tex
+	@pdflatex -jobname=Abstract_${NAME}_${SURNAME} ${ABST}.tex
 
 publish: all
 	@ps2pdf14 -dPDFSETTINGS=/prepress ${MASTER}.pdf

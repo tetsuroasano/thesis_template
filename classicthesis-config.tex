@@ -92,6 +92,8 @@
 \DeclareRobustCommand{\VAN}[3]{#2}
 \let\VANthebibliography\thebibliography
 \def\thebibliography{\DeclareRobustCommand{\VAN}[3]{##3}\VANthebibliography}
+
+\newcommand{\jpn}[1]{\begin{CJK}{UTF8}{ipxm}#1\end{CJK}}
 % ****************************************************************************************************
 
 
