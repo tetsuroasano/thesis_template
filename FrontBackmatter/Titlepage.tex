@@ -1,0 +1,53 @@
+%*******************************************************
+% Titlepage
+%*******************************************************
+\begin{titlepage}
+    \pdfbookmark[1]{\myTitle}{titlepage}
+    % if you want the titlepage to be centered, uncomment and fine-tune the line below (KOMA classes environment)
+    \begin{center}
+        \begingroup
+        \vspace*{2mm}
+				\Large \thesisType\\
+        \vspace{2mm}
+				\Large \begin{CJK}{UTF8}{ipxm}{\thesisTypeJP}\end{CJK}
+        \endgroup
+
+        \vfill
+
+        \begingroup
+				\Large \myTitle\\
+        \vspace{2mm}
+				\Large \begin{CJK}{UTF8}{ipxm}(\myTitleJP)\end{CJK}
+        \endgroup
+
+        \vfill
+        \vfill
+
+        \begingroup
+				\large A Dissertation Submitted for the Degree of {\myDegree}\\
+				\large {\myTime}\\
+        \vspace{2mm}
+				\large \begin{CJK}{UTF8}{ipxm}{\myTimeJP}{\myDegreeJP}申請\end{CJK}
+        \endgroup
+
+        \vfill
+
+        \begingroup
+        \large \myDepartment, \myFaculty \\
+        \myUni \\
+        \vspace{2mm}
+				\large \begin{CJK}{UTF8}{ipxm}{\myDepFacUniJP}\end{CJK}
+        \endgroup
+
+        \vfill
+
+        \begingroup
+        \large \myName\\
+        \vspace{2mm}
+				\large \begin{CJK}{UTF8}{ipxm}{\myNameJP}\end{CJK}
+        \vspace{5mm}
+        \endgroup
+
+
+    \end{center}
+\end{titlepage}

@@ -1,0 +1,31 @@
+\documentclass[10.5pt a4paper]{article}
+%\usepackage[top=25truemm,bottom=20truemm,left=20truemm,right=20truemm]{geometry}
+\input{classicthesis-config}
+\usepackage{nopageno}
+\setlength{\parskip}{3mm}
+\usepackage{CJKutf8}
+\usepackage{xparse}
+\NewDocumentCommand{\chapter}{s m}{%
+  \IfBooleanTF{#1}{
+  }{
+  }
+}
+
+
+
+\title{
+  \Large \begin{CJK}{UTF8}{ipxm}論文の内容の要旨\end{CJK}\\
+  \vspace*{10mm}
+  \myTitle\\
+  \Large \begin{CJK}{UTF8}{ipxm}(\myTitleJP)\end{CJK}
+}
+
+\author{
+  \Large \begin{CJK}{UTF8}{ipxm}氏名　\myNameJP \end{CJK}
+}
+\date{}
+
+\begin{document}
+\maketitle
+\input{FrontBackmatter/Abstract}
+\end{document}
