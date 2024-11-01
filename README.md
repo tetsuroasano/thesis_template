@@ -6,7 +6,7 @@ This repository provides a LaTeX template for doctoral/master/bachelor theses, b
 ## Features and Modifications
 
 - **Bibliography Style**: Uses the MNRAS style for BibTeX references.
-- **Partial Japanese Language Support**: Partial support for Japanese text via the `CJKutf8` package.
+- **Japanese Language Support**: Partial support for Japanese text via the `CJKutf8` package.
 - **Separate Abstract File**: Automatically generates an abstract PDF separate from the main thesis document.
 - (**Footer Customization**: Includes a flipbook effect in the footer, just for fun.)
 
