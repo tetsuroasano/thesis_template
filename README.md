@@ -1,7 +1,7 @@
 # README
 [Classic Thesis](https://ctan.org/pkg/classicthesis)を元にした学位論文用LaTeXテンプレートです。東京大学理学系研究科の博士論文様式に合うように調整しています。
 
-This repository provides a LaTeX template for doctoral/master/bachelor theses, based on the [Classic Thesis](https://ctan.org/pkg/classicthesis) template and customized to meet the formatting requirements of the Graduate School of Science, The University of Tokyo.
+This repository provides a LaTeX template for doctoral/master/bachelor theses, based on the [Classic Thesis](https://ctan.org/pkg/classicthesis) template and customized to meet the formatting requirements of the Graduate School of Science, The University of Tokyo.  This template is best suited for (but not limited to) astronomy and astrophysics theses.
 
 ## Features and Modifications
 
